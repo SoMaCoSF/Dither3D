@@ -22,8 +22,10 @@ shader and texture implementation in `Assets/Dither3D` is his work, with
 contributions credited in the upstream history (for example Aras Pranckevičius).
 
 **What SoMaCoSF brings:** I came to the idea of encoding identifiers into
-rendered surfaces independently. It grew out of RFID work in 2008: devices
-talking in symbols over low bandwidth. The SoMaCoSF encoding layer builds on
+rendered surfaces independently. It grew out of my 2004–2007 concept design as
+head of IT for the RFID division at Lockheed: low-bandwidth symbolic
+communication for IoT devices. It wasn't realizable with what existed then;
+surface-stable dithering is what made it buildable. The SoMaCoSF encoding layer builds on
 this dithering to carry GYST UUIDv8 payloads in surface-stable patterns. That
 is **steganographic encoding of a payload into a rendered surface**, not a
 cryptographic signature. The aim is also to key identifiers into Gaussian splat
