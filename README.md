@@ -1,5 +1,7 @@
 # Surface-Stable Fractal Dithering
 
+> **About this fork (SoMaCoSF):** I arrived at the idea of encoding identifiers into rendered surfaces on my own, coming out of my 2004–2007 concept design as head of IT for the RFID division at Lockheed: low-bandwidth symbolic communication for IoT devices, which wasn't buildable until I found this dithering. The dithering implementation I build on is Rune Skovbo Johansen's, and this README below is his. See [FORK.md](FORK.md) for what this fork adds and how the MPL 2.0 license applies.
+
 Surface-Stable Fractal Dithering is a novel form of dithering invented by Rune Skovbo Johansen for use on surfaces in 3D scenes.
 
 What's unique about it is that the dots in the dither patterns stick to surfaces, and yet the dot sizes and spacing remain approximately constant on the screen, even as surfaces move closer by or further away. This is achieved by dynamically adding or removing dots as needed.
